@@ -24,6 +24,8 @@ print '<br>';
 print $nbre;
 
 
+
+
 // Différents types
 $entier = 10; // integer
 
