@@ -8,3 +8,5 @@
 - [X] 3. [Concaténations, additions, soustractions, multiplications, divisions et modulo](documentation/3.md)
 
 - [X] 4. [Les conditions](documentation/4.md)
+
+- [X] 5. [l'instruction switch, tableau PHP et variable globale $_GET](documentation/5.md)
