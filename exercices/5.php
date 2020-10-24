@@ -59,6 +59,43 @@ if (false) {
 unset($marques[0]);
 unset($marques[1]);
 
+$marques[]='Audi';
+$marques[]='Lada';
+//array_unshift($marques, 'Audi', 'Lada');
+//array_shift($marques);
+//array_pop($marques);
+
 foreach ($marques as $key => $value) {
     echo $key . ' ' . $value . '<br>';
 } 
+
+
+echo '<h1>EXERCICE 3</h1><br>';
+
+$utilisateur = [
+    'nom' => 'Dupon',
+    'prenom' => 'Roger',
+    'dateDeNaissance' => '2000-01-01',
+    'adresse' => 'place de la justice',
+
+];
+
+$utilisateur['prenom'] = 'Bob';
+
+echo '<pre>';
+var_dump($utilisateur);
+//modification
+
+
+echo '<h1>EXERCICE 4</h1><br>';
+
+// $_GET['hour'];
+if($_GET['hour'] >=0 && $_GET['hour'] <=13) {
+    echo 'Bonjour';
+} else if($_GET['hour'] >=14 && $_GET['hour'] <=17) {
+    echo 'Bonne après midi';
+} else if($_GET['hour'] >=18 && $_GET['hour'] <=23) {
+    echo 'Bonsoir';
+
+}
+
