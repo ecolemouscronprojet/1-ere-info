@@ -1,3 +1,9 @@
+<?php 
+
+echo 'SAmuel';
+exit;
+?>
+
 Samuel 
 
 $maPremiereVariable = 'Hello World';<br>

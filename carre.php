@@ -8,7 +8,7 @@ function addition(int $nb1, int $nb2){
 echo addition(5,5);
 
 
-/*
+
 function plusUn(int &$monNombre){
     $monNombre++;
 }
@@ -25,7 +25,6 @@ plusUn($i);
 echo $i.'<br>';
 
 
-*/
 
 function carre($taille, $couleur) {
     return '<div style="height: ' . $taille. 'px;background: ' . $couleur .';width: ' . $taille . 'px;"></div>';
