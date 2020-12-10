@@ -40,12 +40,15 @@ function fibonacci(int $maxNombre): string
     return implode(', ', $suite);
 }
 
-
 function maj(string $chaine): string {
     $ligne = '';
     for($i=0; $i<strlen($chaine); $i++){
-        $code  = ord($chaine[$i]) -32;
-        $ligne .= chr($code);
+        // SI $chaine[$i] = ' '
+        // concatène $ligne à  $chaine[$i]
+        // SINON
+            $code  = ord($chaine[$i]) -32;
+            $ligne .= chr($code);
+         // endif   
     }
 
     return $ligne;
