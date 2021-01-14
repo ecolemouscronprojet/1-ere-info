@@ -5,8 +5,8 @@ session_start();
 if (isset($_SESSION['user']) === false) {
     // identifiant
     $username = "ecole";
-    $password = "ecole2021";
-
+    $password = hash('sha256', 'ecole2021');
+    
     // vérifier que tous les champs requis soient là
     if (
         isset($_POST['username']) === false
@@ -16,10 +16,12 @@ if (isset($_SESSION['user']) === false) {
         exit;
     }
 
+    $mdpHashed = hash('sha256', $_POST['password']);
+
     // vérifier que les identifiants match
     if (
         $_POST['username'] === $username
-        && $_POST['password'] ===  $password
+        && $mdpHashed ===  $password
     ) {
         $_SESSION['user'] = $username;
     } else {
