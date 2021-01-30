@@ -31,5 +31,6 @@ if (isset($_SESSION['user']) === false) {
 
 
 if (isset($_SESSION['user'])) {
+    echo "<a href='logout.php'>Déconnexion</a>";
     echo "<h1>Vous êtes connectés</h1>";
 }

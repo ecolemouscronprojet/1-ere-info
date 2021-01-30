@@ -21,3 +21,10 @@
  - [Vidéos 3](https://www.youtube.com/watch?v=0cKUXGxyApE)
  - [Vidéos 4](https://www.youtube.com/watch?v=CDr3NnK4JsA)
  - [Vidéos 5 (NEW)](https://www.youtube.com/watch?v=UebLrSLDuE4)
+
+
+ # Projet gestion contact
+
+ - [Vidéos 1 - Initiation du projet ](https://www.youtube.com/watch?v=pFj78LMAJTw)
+ - [Vidéos 2 - Création du formulaire ](https://www.youtube.com/watch?v=jsONaQgUE6U)
+ 
